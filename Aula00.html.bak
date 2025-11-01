@@ -1,0 +1,93 @@
+<!--
+
+ MM   MM    AAA     CCCC   11   11   888
+ MMM MMM   AA AA   CC     111  111  88 88
+ MM M MM  AAAAAAA  CC      11   11   888
+ MM M MM  AAA  AA  CC      11   11  88 88
+ MM   MM AA     AA  CCCC   11   11   888
+-->
+<html>
+<head>
+  <base href=".">
+  <title>Trabalho de MAC118 - 2021 - IME - USP </title>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">    
+  <link rel="stylesheet" href="estilo.css" media="screen">
+</head>
+
+<body>
+
+
+<!-- cabecalho da tabela --- --->
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr bgcolor="#d4e4ea"><td>
+ <div class="cabecalho_rodape">
+  <a href="index.html" title="ir para inicio">Sobre o uso da Estatística Descritiva no iVprog</a> - Laís Alves da Costa, Ruan Laranjeira Marques e Vinícius Ken Miamura
+ </div>
+</td></tr></table>
+<!-- cabecalho da tabela --- --->
+
+<!-- --- canto superior esquerdo para construir o bloco com contos esquerdos arredondados --- --->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+ <tr><td><img src="img/cab-esq.gif"></td>
+     <td width="100%" background="img/cab-sup.gif">&nbsp;</td></tr>
+</table>
+
+<!-- --- : centro da tabela : corpo do texto: inicio : --- -------------- -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr><td background="img/esq.gif" width="48px">&nbsp;</td>
+<td>
+
+<div class="titulo">
+<h2>Trabalho de MAC118 - 2021<img src="imagens/GifPC.gif"  align="right" title="GifPC" width="100" height="90"/></h2><h3>Aula 00 - A importância do Pensamento Computacional</h3>
+</div>
+
+<br/><!-- quebra de linha -->
+
+<div class="titulosecao">
+Pensamento Computacional
+</div>
+
+<br/>
+
+Podemos definir o pensamento computacional como uma estratégia para modelar soluções e resolver problemas de forma eficiente, usando a tecnologia como base.<br><br>
+
+A intenção é reformular tarefas que parecem ser de difícil resolução e transformá-las em algo capaz de ser compreendido. Para tal, foca-se em cada uma de suas fases, a fim de lidar com suas incertezas. <br><br>
+Resumidamente, seria a capacidade criativa, crítica e estratégica de utilizar os conceitos computacionais nas diferentes áreas de conhecimento para a resolução de problemas.<br><br>
+
+Funciona em quatro etapas:
+<ol>
+   <li><b>Decomposição</b> – ato de decompor um desafio em problemas menores, a fim de facilitar sua resolução.
+   </li>
+   <li><b>Padrões</b>– reconhecimento de padrões que geram o problema.
+   </li>
+   <li><b>Abstração</b> – ação de ignorar detalhes específicos do problema a fim de chegar a uma solução generalizante, que se aplique a uma classe de problemas.
+   </li>
+    <li><b>Algoritmo</b> – criação de um algoritmo para a resolução do problema, ou seja, uma lista ordenada de instruções.
+   </li>
+  </ol>
+<br>
+No final dessa Unidade Curricular você também desenvolverá o Pensamento Computacional. Vamos embarcar nesse precioso aprendizado ?<br>
+<br>
+
+<a href="index.html"><img src="imagens/voltar.png" title="Voltar Início" width="3%" align="left"/></a>
+<a href="Aula01.html"><img src="imagens/avançar.png" title="Avançar" width="3%" align="right"/></a>
+
+
+</td></tr>
+</table>
+<!-- --- : centro da tabela : corpo do texto: final : --- -------------- -->
+
+<!-- --- : final da tabela com canto esquerdo arredondado : --- -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+ <tr><td><img src="img/cab-inf-esq.gif"></td>
+   <td width="100%" background="img/canto-inf.gif"></td></tr>
+</table>
+
+<!-- rodape da tabela --- --->
+<div class="cabecalho_rodape">
+ Trabalho de MAC118 - 2021 - Prof. Leônidas O. Brandão
+</div>
+
+
+</body>
+</html>

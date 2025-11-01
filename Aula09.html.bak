@@ -1,0 +1,153 @@
+<!--
+
+ MM   MM    AAA     CCCC   11   11   888
+ MMM MMM   AA AA   CC     111  111  88 88
+ MM M MM  AAAAAAA  CC      11   11   888
+ MM M MM  AAA  AA  CC      11   11  88 88
+ MM   MM AA     AA  CCCC   11   11   888
+-->
+<html>
+<head>
+
+  <base href=".">
+  <title>Trabalho de MAC118 - 2021 - IME - USP</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">    
+  <link rel="stylesheet" href="estilo.css" media="screen">
+</head>
+
+<body>
+
+
+<!-- cabecalho da tabela --- --->
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr bgcolor="#d4e4ea"><td>
+ <div class="cabecalho_rodape">
+  <a href="index.html" title="ir para inicio">Sobre o uso da Estatística Descritiva no iVprog</a> - Laís Alves da Costa, Ruan Laranjeira Marques e Vinícius Ken Miamura
+ </div>
+</td></tr></table>
+<!-- cabecalho da tabela --- --->
+
+<!-- --- canto superior esquerdo para construir o bloco com contos esquerdos arredondados --- --->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+ <tr><td><img src="img/cab-esq.gif"></td>
+     <td width="100%" background="img/cab-sup.gif">&nbsp;</td></tr>
+</table>
+
+<!-- --- : centro da tabela : corpo do texto: inicio : --- -------------- -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr><td background="img/esq.gif" width="48px">&nbsp;</td>
+<td>
+
+<div class="titulo">
+<h2>Trabalho de MAC118 - 2021<img src="imagens/GifPC.gif"  align="right" title="GifPC" width="100" height="90"/></h2><h3>Aula 09 - Histograma</h3>
+</div>
+
+<br/><!-- quebra de linha -->
+
+<div class="titulosecao">
+ Apresentação
+</div>
+
+<br/>
+
+Como dito na <a href="Aula02.html" >Aula 02</a> a Estatística Descritiva aplica várias técnicas para descrever e sumarizar um conjunto de dados. Ela fornece resumos simples sobre a amostra e sobre as observações que foram feitas. Tal resumo pode ser visual e nessa Aula vamos explorar a visualização do conjunto de dados através de <b>Histogramas</b>.<br><br>
+
+Um Histograma é uma espécie de gráfico de barras que demonstra uma distribuição de frequências. Quando você precisa apresentar ou tirar conclusões de um grande conjunto de dados e está trabalhando com conceitos envolvendo frequências, sejam absolutas ou relativas, o histograma é o melhor caminho a se tomar. Ele nos auxilia com a representação gráfica dos conjuntos de dados de forma mais amigável, tornando mais fácil a visualização de onde a maioria dos valores se concentram.
+<br><br>
+
+No histograma, a base de cada uma das barras representa uma classe e a altura representa a quantidade ou frequência absoluta com que o valor de cada classe ocorre. Ao mesmo tempo, ele pode ser utilizado como um indicador de dispersão de processos.
+<br><br>
+Os histogramas às vezes são confundidos com gráficos de barras. Um histograma é usado para dados contínuos, em que os intervalos de classe representam a extensão dos dados. Já um gráfico de barra é um gráfico de variáveis categóricas ou discretas. Alguns autores recomendam que os gráficos de barras tenham espaços entre os retângulos para esclarecer a diferença.<br><br>
+O objetivo de um histograma é ilustrar como uma determinada amostra de dados ou população está distribuída, dispondo as informações de modo a facilitar a visualização da distribuição dos dados. Ao mesmo tempo, ressalta a localização do valor central e da distribuição dos dados em torno deste valor central.<br> <br><br>
+
+<div class="titulosecao">
+Como fazer um Histograma
+</div><br>
+
+<ol>
+  <li>O primeiro passo é coletar os dados a serem analisados e organizá-los, a fim de facilitar a interpretação dos mesmos. </li><br>
+<li>Calcule a <a href="Aula06.html" >Amplitude</a> (diferença entre o maior e o menor valor dos dados (R) – range, em inglês).</li><br>
+<li>Defina os números de classes (as barras verticais). Para ordenar a quantidade de classes, primeiro deve-se computar o número de dados apontados. A letra (K) corresponde ao número de classes.</li><br>
+<li>Calcule o intervalo das classes (dividindo-se a amplitude pelo número de classes (H)).</li><br>
+<li>Determine os limites das classes. Aqui, você seleciona o menor valor da amostra (se for mais viável, ele pode ser arredondado para baixo). Para calcular o limite superior da primeira classe, soma-se o valor do intervalo de classe (H).</li><br>
+<li>Monte o Histograma.</li><br></ol>
+
+
+<div class="titulosecao">
+Exemplo
+</div><br>
+
+Abaixo apresentamos um exemplo da construção de um Histograma no Geogebra com 5 barras verticais utilizando a lista de dados(1).<br><br>
+Funções utilizadas: Frequência, Histograma, Média e Mediana.<br>
+(1) Lista de dados: {1.73, 1.7, 1.62, 1.62, 1.74, 1.7, 1.74, 1.66, 1.68, 1.76, 1.8, 1.63, 1.75, 1.65, 1.81}<br>
+<br><br>
+
+Seguindo as orientações de como fazer um Histograma, devemos calcular: <br><br>
+<ol>
+<li>A amplitude (R):  <br>maior valor = 1.81  <br>menor valor = 1.62<br>Amplitude = maior valor - menor valor = <b>0.19</b> </li><br>
+<li>O intervalo de classes (H):  <br>amplitude = 0.19  <br>número de barras = 5<br>Intervalo de classes = amplitude / número de barras = 0.038<br>
+Arredondando temos o intervalo de classes = <b>0.04</b></li><br>
+<li>O conjunto (limites) das classes:  <br>
+Classe inicial = menor valor da amostra = <b>1.62</b>
+<ol>
+</li>
+<li>Classe = 1.62 + intervalo de classes = 1.62 + 0.04 = <b>1.66</b> </li>
+<li>Classe = 1.66 + intervalo de classes = 1.66 + 0.04 = <b>1.7</b> </li></li>
+<li>Classe = 1.7 + intervalo de classes = 1.7 + 0.04 = <b>1.74</b> </li></li></li>
+<li>Classe = 1.74 + intervalo de classes = 1.74 + 0.04 = <b>1.78</b> </li></li></li>
+<li>Classe = 1.78 + intervalo de classes = 1.78 + 0.04 = <b>1.82</b> </li></li></li>
+</ol></ol>
+<br>Temos o conjunto de classes : <b>{1.62, 1.66, 1.7, 1.74, 1.78, 1.82}</b>
+<br><br>
+
+Sabemos que a base de cada retângulo representa a classe. <br>
+A altura de cada retângulo representa a quantidade ou a frequência absoluta com que o valor da classe ocorre no conjunto de dados. <br><br>
+<ol>
+</li>
+<li>Frequência classe 1:<br> Intervalo [1.62, 1.66[<br> Dados = {1.62, 1.62, 1.63, 1.65}<br>Frequência Absoluta Barra 1 = <b>4</b> </li><br>
+<li>Frequência classe 2:<br> Intervalo [1.66, 1.7[<br> Dados = {1.66, 1.68}<br>Frequência Absoluta Barra 2 = <b>2</b> </li><br>
+<li>Frequência classe 3:<br> Intervalo [1.7, 1.74[<br> Dados = {1.7, 1.7, 1.73}<br>Frequência Absoluta Barra 3 = <b>3</b> </li><br>
+<li>Frequência classe 4:<br> Intervalo [1.74, 1.78[<br> Dados = {1.74, 1.74, 1.75, 1.76}<br>Frequência Absoluta Barra 4 = <b>4</b> </li><br>
+<li>Frequência classe 5:<br> Intervalo [1.78, 1.82[<br> Dados = {1.8, 1.81}<br>Frequência Absoluta Barra 5 = <b>2</b> </li>
+</ol>
+
+<br><img src="imagens/Histograma.png"  align="middle" /> 
+<br><br>
+<b>OBSERVAÇÃO:<br><br></b>
+Em um histograma, é a área que indica a frequência de ocorrência de cada barra. Isto significa que a altura da barra não indica necessariamente a quantidade de ocorrências dentro dela. É o produto da altura pela largura da barra que indica a frequência de ocorrência dentro da barra. A largura da barra é o intervalo de classe (0.04). Uma das razões pelas quais a altura da barra é confundida com o indicador de frequência da barra é o fato de muitos histogramas terem barras igualmente espaças. <br> <br>
+<center>Área = Frequência de Ocorrência Barra n = Base x Altura = Intervalo de Classe x Frequência Absoluta Barra n</center>
+
+<ol>
+</li>
+<li>Frequência de Ocorrência Barra 1 = 0.04 x 4 = <b>0.16</b> <br>
+<li>Frequência de Ocorrência Barra 2 = 0.04 x 2 = <b>0.08</b> <br>
+<li>Frequência de Ocorrência Barra 3 = 0.04 x 3 = <b>0.12</b> <br>
+<li>Frequência de Ocorrência Barra 4 = 0.04 x 4 = <b>0.16</b> <br>
+<li>Frequência de Ocorrência Barra 5 = 0.04 x 2 = <b>0.08</b> <br>
+</ol><br>
+Sendo assim, a Frequência de Ocorrência Total desse conjunto de dados é:<br><br>
+<center>0.16 + 0.08 + 0.12 + 0.16 + 0.08 = <b>0.6</b></center>
+
+<a href="Aula08.html"><img src="imagens/voltar.png" title="Voltar" width="3%" align="left"/></a>
+<a href="Aula10.html"><img src="imagens/avançar.png" title="Avançar" width="3%" align="right"/></a>
+
+<br>
+
+
+</td></tr>
+</table>
+<!-- --- : centro da tabela : corpo do texto: final : --- -------------- -->
+
+<!-- --- : final da tabela com canto esquerdo arredondado : --- -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+ <tr><td><img src="img/cab-inf-esq.gif"></td>
+   <td width="100%" background="img/canto-inf.gif"></td></tr>
+</table>
+
+<!-- rodape da tabela --- --->
+<div class="cabecalho_rodape">
+ Trabalho de MAC118 - 2021 - Prof. Leônidas O. Brandão
+</div>
+
+
+</body>
+</html>

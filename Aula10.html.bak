@@ -1,0 +1,121 @@
+<!--
+
+ MM   MM    AAA     CCCC   11   11   888
+ MMM MMM   AA AA   CC     111  111  88 88
+ MM M MM  AAAAAAA  CC      11   11   888
+ MM M MM  AAA  AA  CC      11   11  88 88
+ MM   MM AA     AA  CCCC   11   11   888
+-->
+<html>
+<head>
+  <base href=".">
+  <title>Trabalho de MAC118 - 2021 - IME - USP</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">    
+  <link rel="stylesheet" href="estilo.css" media="screen">
+</head>
+
+<body>
+
+
+<!-- cabecalho da tabela --- --->
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr bgcolor="#d4e4ea"><td>
+ <div class="cabecalho_rodape">
+  <a href="index.html" title="ir para inicio">Sobre o uso da Estatística Descritiva no iVprog</a> - Laís Alves da Costa, Ruan Laranjeira Marques e Vinícius Ken Miamura
+ </div>
+</td></tr></table>
+<!-- cabecalho da tabela --- --->
+
+<!-- --- canto superior esquerdo para construir o bloco com contos esquerdos arredondados --- --->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+ <tr><td><img src="img/cab-esq.gif"></td>
+     <td width="100%" background="img/cab-sup.gif">&nbsp;</td></tr>
+</table>
+
+<!-- --- : centro da tabela : corpo do texto: inicio : --- -------------- -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr><td background="img/esq.gif" width="48px">&nbsp;</td>
+<td>
+
+<div class="titulo">
+<h2>Trabalho de MAC118 - 2021<img src="imagens/GifPC.gif"  align="right" title="GifPC" width="100" height="90"/></h2><h3>Aula 10 - Desafio Final</h3>
+</div>
+
+<br/><!-- quebra de linha -->
+
+<div class="titulosecao">
+Apresentação
+</div>
+
+<br/>
+
+Parabéns por ter chegado até aqui!<br><br>
+Agora que você já aprendeu sobre a Estatística Descritiva e realizou atividades de programação no iVprog envolvendo <a href="Aula03.html" >Média</a>, <a href="Aula04.html" >Mediana</a>, <a href="Aula05.html" >Moda</a>, <a href="Aula06.html" >Amplitude</a>, <a href="Aula07.html" >Desvio Padrão</a> e <a href="Aula08.html" >Coeficiente de Variância</a>, elabore um Relatório Estatístico conforme as orientações abaixo.
+<br><br>
+
+<div class="titulosecao">
+Orientações
+</div>
+<br>
+
+<b>OBJETIVO</b><br><br>
+Elaborar um relatório da Unidade Curricular ensinada e aplicar os programas realizados no iVprog das Atividades para o Desafio Final proposto. <br><br>
+
+<b>GUIA</b><br>
+
+<ol>
+</li>
+<li>Para a elaboração do relatório, considere a Unidade Curricular Estatística Descritiva na programação iVprog e Atividades desenvolvidas das aulas: <a href="Aula03.html" >Aula 03</a>, <a href="Aula04.html" >Aula 04</a>, <a href="Aula05.html" >Aula 05</a>, <a href="Aula06.html" >Aula 06</a>, <a href="Aula07.html" >Aula 07</a> e <a href="Aula08.html" >Aula 08.</a> </li><br>
+<li>Utilize e/ou adapte os programas realizados para os cálculos do Desafio.<br>
+Não esqueça de tirar prints dos programas e dos resultados para a Metodologia do Relatório.</li><br>
+<li> Apresente os resultados obtidos, ou seja, quais foram os conhecimentos, habilidades e atitudes que vocês desenvolveram. Neste tópico é o momento de vocês fazerem uma reflexão e avaliarem a aprendizagem (ou não) de vocês.</li><br>
+</ol>
+
+<b>DESAFIO</b><br><br>
+
+Os dados sobre o peso(kg) de 16 estudantes encontram-se na tabela abaixo.<br><br>
+
+<img src="imagens/Desafio.png"  align="middle" width="250" height="320" /> 
+<br><br>
+Responda os seguintes itens:<br>
+
+<ol>
+</li>
+<li>Quais as Medidas de Tendências Centrais do peso dos estudantes?<br>
+O que essas medidas significam?</li><br>
+<li>Quais as Medidas de Tendências de Dispersão do peso dos estudantes?<br>
+O que essas medidas significam?</li><br>
+<li> Desenvolva e um Histograma sobre os dados do peso dos estudantes.<br>
+Veja a <a href="Aula09.html" >Aula 09.</a> e monte o passo a passo do Histograma.</li><br>
+<li> Para a Conclusão:<br>Como o uso e o estudo da programação auxilia no ramo de Estatística?<br>
+Desenvolvendo programas para calcular as medidas necessárias você obteve melhor compreensão do significado matemático das medidas de Estatística?<br>
+</li>
+</ol>
+
+
+<a href="Aula09.html"><img src="imagens/voltar.png" title="Voltar" width="3%" align="left"/></a>
+<br>
+
+
+<p>
+<div align="right">
+<a href="referencias.html" title="Examinar todas as referências utilizadas neste trabalho"><font size=-2>Referências</font></a><br></div>
+</p>
+
+</td></tr>
+
+<!-- --- : centro da tabela : corpo do texto: final : --- -------------- -->
+
+<!-- --- : final da tabela com canto esquerdo arredondado : --- -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+ <tr><td><img src="img/cab-inf-esq.gif"></td>
+   <td width="100%" background="img/canto-inf.gif"></td></tr>
+</table>
+
+<!-- rodape da tabela --- --->
+<div class="cabecalho_rodape">
+ Trabalho de MAC118 - 2021 - Prof. Leônidas O. Brandão
+</div>
+
+
+</body>
+</html>

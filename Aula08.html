@@ -1,0 +1,180 @@
+<!--
+
+ MM   MM    AAA     CCCC   11   11   888
+ MMM MMM   AA AA   CC     111  111  88 88
+ MM M MM  AAAAAAA  CC      11   11   888
+ MM M MM  AAA  AA  CC      11   11  88 88
+ MM   MM AA     AA  CCCC   11   11   888
+-->
+<html>
+<head>
+  <base href=".">
+  <title>Trabalho de MAC118 - 2021 - IME - USP</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">    
+  <link rel="stylesheet" href="estilo.css" media="screen">
+</head>
+
+<body>
+
+
+<!-- cabecalho da tabela --- --->
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr bgcolor="#d4e4ea"><td>
+ <div class="cabecalho_rodape">
+  <a href="index.html" title="ir para inicio">Sobre o uso da Estatística Descritiva no iVprog</a> - Laís Alves da Costa, Marcos Molina Filho, Ruan Laranjeira Marques e Vinícius Ken Miamura
+ </div>
+</td></tr></table>
+<!-- cabecalho da tabela --- --->
+
+<!-- --- canto superior esquerdo para construir o bloco com contos esquerdos arredondados --- --->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+ <tr><td><img src="img/cab-esq.gif"></td>
+     <td width="100%" background="img/cab-sup.gif">&nbsp;</td></tr>
+</table>
+
+<!-- --- : centro da tabela : corpo do texto: inicio : --- -------------- -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr><td background="img/esq.gif" width="48px">&nbsp;</td>
+<td>
+
+<div class="titulo">
+<h2>Trabalho de MAC118 - 2021<img src="imagens/GifPC.gif"  align="right" title="GifPC" width="100" height="90"/></h2><h3>Aula 08 - Medidas de dispersão: Coeficiente de Variância</h3>
+</div>
+
+<br/><!-- quebra de linha -->
+
+<div class="titulosecao">
+Coeficiente de Variância
+</div>
+
+<br/>
+Em teoria das probabilidades e estatística, o <b>Coeficiente de Variação (CV)</b>, também conhecido como <b>Desvio Padrão Relativo (DPR)</b>, é uma medida padronizada de dispersão de uma distribuição de probabilidade ou de uma distribuição de frequências. É frequentemente expresso como uma <b>porcentagem</b>, sendo definido como a razão do <a href="Aula07.html" >Desvio Padrão</a> pela <a href="Aula03.html" >Média</a>. O CV ou DPR é amplamente usado em química analítica para expressar a precisão e a repetitividade de um ensaio.<br><br>
+
+O Coeficiente de Variação, que é uma medida de dispersão relativa, muito útil para comparar duas ou mais variáveis. Sua fórmula é dada por:<br>
+<center><img src="imagens/Coeficiente.png" /> </center> <br>
+CV = Coeficiente de Variância<br>
+S = Desvio Padrão<br>
+x= média das amostras.<br>
+<br><br>
+
+<div class="titulosecao">
+Atividade
+</div>
+<br>
+
+Agora que você sabe o que é Coeficiente de Variância e estudou as Aulas anteriores, desenvolva a seguinte atividade:
+<br><br>
+<b>ATIVIDADE 1</b>
+<br><br>
+
+O dono de uma microempresa pretende saber o Desvio Padrão da quantidade de produtos que são produzidos em 7 dias. Faça um programa que solicita que o usuário digite sete (7) números inteiros, e em seguida, encontre e imprima o Desvio Padrão e o Coeficiente de Variância do conjunto dos 7 números.
+<br><br>
+Dica: Para facilitar, altere e acrescente códigos no programa da Atividade anterior de Desvio Padrão.
+<br><br>
+Entrada esperada: 7 números inteiros (tipo int).<br>
+Saída esperada: Desvio Padrão e Coeficiente de Variância dos 3 números digitados. 
+<br><br>
+
+<div class="embed-responsive embed-responsive-4by3"><!-- embed-responsive-16by9 -->
+ <iframe class="embed-responsive-item" width="900" height="800" name="ivprog"
+   src="ivprogh/index.html?iLM_PARAM_AssignmentURL=true&iLM_PARAM_Assignment=../ivp/exemplo_testa_tripla_pitagorica.ivph"
+   allowfullscreen>
+ </iframe>
+ 
+ <br><br>
+ 
+  <font size=-2> <b>Validação:</b>
+ <table border=1 cellPadding=2 cellSpacing=0>
+                  <tr>
+                    <td bgcolor="#6a5acd" align="center">
+                    <font face="verdana, sans-serif" color="#ffffff" size=1>
+	                <b>Valor 1</b></font></td>
+                    <td bgcolor="#6a5acd" align="center">
+                    <font face="verdana, sans-serif" color="#ffffff" size=1>
+	            <b>Valor 2</b></font></td>
+				<td bgcolor="#6a5acd" align="center">
+                    <font face="verdana, sans-serif" color="#ffffff" size=1>
+	            <b>Valor 3</b></font></td>		
+				<td bgcolor="#db3012" align="center">
+                    <font face="verdana, sans-serif" color="#ffffff" size=1>
+	            <b>Desvio Padrão</b></font></td>
+				<td bgcolor="#db3012" align="center"><font face="verdana, sans-serif" color="#ffffff" size=1>
+	            <b>Coeficiente de Variância</b></font></td>
+                  </tr>
+                  <tr>
+                    <td align="center">
+					<font face="verdana, sans-serif" color="#000044" size=1>
+                    124</font></td>
+                    <td align="center">
+					<font face="verdana, sans-serif" color="#000044" size=1>
+                    122</font></td>
+					<td align="center">
+					<font face="verdana, sans-serif" color="#000044" size=1>
+                    123</font></td>					
+					<td align="center">
+					<font face="verdana, sans-serif" color="#000044" size=1>
+                    1</font></td>
+					<td align="center"><font face="verdana, sans-serif" color="#000044" size=1>
+                    0.81 = 1</font></td>
+                  </tr>
+				  <tr>
+                    <td align="center">
+					<font face="verdana, sans-serif" color="#000044" size=1>
+                    7</font></td>
+                    <td align="center">
+					<font face="verdana, sans-serif" color="#000044" size=1>
+                    6</font></td>
+					<td align="center">
+					<font face="verdana, sans-serif" color="#000044" size=1>
+                    14</font></td>
+					<td align="center">
+					<font face="verdana, sans-serif" color="#000044" size=1>
+                    4.4 = 4</font></td>
+					<td align="center"><font face="verdana, sans-serif" color="#000044" size=1>
+                    48.4 = 48</font></td>
+					
+                  </tr>
+				  <tr>
+                    <td align="center">
+					<font face="verdana, sans-serif" color="#000044" size=1>
+                    1</font></td>
+                    <td align="center">
+					<font face="verdana, sans-serif" color="#000044" size=1>
+                    112</font></td>
+					<td align="center">
+					<font face="verdana, sans-serif" color="#000044" size=1>
+                    55</font></td>
+					<td align="center">
+					<font face="verdana, sans-serif" color="#000044" size=1>
+                    55.5 = 55</font></td>
+					<td align="center"><font face="verdana, sans-serif" color="#000044" size=1>
+                    99.1 = 99</font></td>
+                  </tr>
+                  
+ </table>
+ </font>
+ 
+ 
+ <br>
+ 
+ <a href="Aula07.html"><img src="imagens/voltar.png" title="Voltar" width="3%" align="left"/></a>
+<a href="Aula09.html"><img src="imagens/avançar.png" title="Avançar" width="3%" align="right"/></a>
+
+
+</td></tr>
+
+<!-- --- : centro da tabela : corpo do texto: final : --- -------------- -->
+
+<!-- --- : final da tabela com canto esquerdo arredondado : --- -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+ <tr><td><img src="img/cab-inf-esq.gif"></td>
+   <td width="100%" background="img/canto-inf.gif"></td></tr>
+</table>
+
+<!-- rodape da tabela --- --->
+<div class="cabecalho_rodape">
+ Trabalho de MAC118 - 2021 - Prof. Leônidas O. Brandão
+</div>
+
+
+</body>
+</html>

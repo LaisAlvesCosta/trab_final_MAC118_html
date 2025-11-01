@@ -1,0 +1,14 @@
+Para gradientes:
+
+
+http://www.cssmatic.com/gradient-generator#%27\-moz\-linear\-gradient\%28left\%2C\%20rgba\%2873\%2C155\%2C234\%2C1\%29\%200\%25\%2C\%20rgba\%28158\%2C192\%2C227\%2C1\%29\%20100\%25\%29\%3B%27
+
+.titulo { /* para titulos, usar do seguinte modo: <div class="titulo">seu texto... </div> */
+ background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(158,192,227,1) 100%);
+ background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(158,192,227,1)));
+ background: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(158,192,227,1) 100%);
+ background: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(158,192,227,1) 100%);
+ background: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(158,192,227,1) 100%);
+ background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(158,192,227,1) 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#499bea', endColorstr='#9ec0e3', GradientType=1 );
+ }

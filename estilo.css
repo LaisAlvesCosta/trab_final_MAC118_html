@@ -1,0 +1,113 @@
+/*
+
+Modelo de formatador (CSS)
+MAC118 - 2017
+
+Prof. Leo^nidas de Oliveira Branda~o
+Procure ler os comentarios para entender o que cada "comando" faz
+
+*/
+
+/* Uma vez carregado esta "folha de estilo", este item aplica-se ao corpo da pagina como um todo */
+body {
+ margin:0; padding:0; /* 'margin'=margens superior, direita, inferior e esqerda; 'padding'=espacamentos (idem); */
+ background-color:#fff; /* cor de fundo #RRGGBB (sistema RGB - Red/Green/Blue), podendo ir de 00 ate FF (0 ate 255) */
+ color:#000; /* cor padra a ser usado para qualquer texto (tambem no sistema RGB) */
+ font-family:verdana,arial,sans-serif; /* tipo de fonte, tente primeiro 'verdana', se esta nao existir tente 'arial' e assim por diante */
+ }
+
+.cabecalho_rodape {
+ font-family: Verdana, Arial, Helvetica; font-size: 80%;
+ float:left; width: 100%; /* 'float' => pode variar (de acordo com tamanho da pagina); 'width' e' a largura a ser usada (aqui ocupara toda a pagina, 100% */
+ border: thin solid; border-color: #a0a0a0; padding: 1px;
+ -moz-box-sizing: border-box; /* para Firefox: como sera computado o "redimensionamento" */
+ -webkit-box-sizing: border-box; /* para Safari e Chrome: idem */
+ background-color: #bcd4ea; /* cor de fundo do item - aqui usar um mistura de "bc" (11*16+12) de vermelho (red), "d4" (13*16+4) de verde (green) e "ea" (14*16+10) de azul (blue) */
+ }
+
+.cabecalhoSup {
+ background-image:url(imagens/cab-sup.gif); /* usar a imagem, que deve estar ser './imagens/cab-sup.gif', como fundo - CUIDADO: use sempre endereco relativo! */
+ }
+.cabecalhoEsq {
+ float:left;width:48px; height:24px;
+ background-image:url(imagens/cab-esq.gif); /* use endereco relativo (NUNCA use algo como "/home/leo/www/imagens/cab-esq.gif" ou "C:\www\imagens\cab-esq.gif") */
+ }
+
+.esquerda {
+ float:left;width:48px; height:4px;
+ background-image:url(imagens/esq.gif);
+ }
+
+/* Cores para hiper-apontadores ("hyper-links") */
+a:link{color:#006792;}
+a:hover,a:active,a:visited{color:#003752;}
+
+hr {color:#003752; height:1px;} /* linha horizontal para separacao - "hr" vem de "Horizontal Rule" */
+
+.topLinks {
+ float:left; width: 100%; padding: 2px;
+ background-color: #d4e4ea; font-size: 90%;
+ }
+
+.aplicacao {
+ font-family: Verdana, Arial, Helvetica;
+ border: thin dashed;
+ padding: 1px 1px 2px 4px;
+ }
+
+.titulo { /* para titulos, usar do seguinte modo: <div class="titulo">seu texto... </div> */
+ font-family: Verdana, Arial, Helvetica; font-weight: bold; font-size: 120%;
+ border: thin solid #64748a;
+ border-radius: 15px; /* cantos arredondados: quanto maior o valor, "mais redondo" */
+ /* para fazer um "degrade"/"gradient" */ 
+ background: -webkit-linear-gradient(top, #499bea 0%, #9ec0e3 100%);
+ background:    -moz-linear-gradient(top, #499bea 0%, #9ec0e3 100%);
+ background:    -o-linear-gradient(top, #499bea 0%, #9ec0e3 100%);
+ background:    -ms-linear-gradient(top, #499bea 0%, #9ec0e3 100%);
+ background:         linear-gradient(top, #499bea 0%, #9ec0e3 100%);
+ padding: 2px 2px 3px 7px; /* x y z w: x=margem superior; y=margem direita; z=margem inferior; w=a margem esquerda */
+ }
+
+.titulosecao { /* tambem usar com "div" */
+ font-weight: bold;
+ border: thin solid #64748a; /* #b4c4da */
+ border-radius: 7px; /* cantos arredondados: quanto maior o valor, "mais redondo" */
+ /* se desejar uma cor de fundo fixa, usar algo como: background-color: #64a4da;
+ /* se desejar fazer um "degrade"/"gradient" */ 
+ background: -webkit-linear-gradient(top, #499bea 0%, #9ec0e3 100%);
+ background:    -moz-linear-gradient(top, #499bea 0%, #9ec0e3 100%);
+ background:    -o-linear-gradient(top, #499bea 0%, #9ec0e3 100%);
+ background:    -ms-linear-gradient(top, #499bea 0%, #9ec0e3 100%);
+ background:         linear-gradient(top, #499bea 0%, #9ec0e3 100%);
+ padding: 2px 6px 2px 6px; /* x y z w: x=margem superior; y=margem direita; z=margem inferior; w=a margem esquerda */
+ }
+
+titulosubsecao { /* note que este nao tem o "." no nome => usar como: <titulosubsecao>Apresentação</titulosubsecao> */
+ font-weight: bold; color: #0000aa;
+ }
+
+/* Para colocar 2 colunas, uma ao lado da outra, no HTML usar em cada uma: <tabela2c><ladoalado>...</ladoalado><ladoalado>...</ladoalado></tabela2c> */
+tabela2c { display: table; }
+ladoalado {
+ display:table-cell;
+ vertical-align: top;
+ }
+
+.exerc {
+ font-family: Verdana, Arial, Helvetica;
+ border: thin dashed;
+ background-color: #d4e4ea;
+ padding: 2px 2px 3px 3px;
+ }
+
+.nota1 {
+ font-family: Verdana, Arial, Helvetica; font-weight: bold; font-size: 100%;
+ }
+
+.nota2 {
+ font-family: Verdana, Arial, Helvetica; font-size: 80%;
+ }
+
+.nota {
+ font-family: Verdana, Arial, Helvetica; font-weight: normal; font-size: 80%;
+ }

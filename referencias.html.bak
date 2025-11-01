@@ -1,0 +1,108 @@
+<!--
+
+ MM   MM    AAA     CCCC   11   11    8888
+ MMM MMM   AA AA   CC     111  111  88 8888
+ MM M MM  AAAAAAA  CC      11   11  8888 88
+ MM   MM AA     AA  CCCC   11   11    888
+-->
+<html>
+<head>
+  <base href=".">
+  <title>Trabalho de MAC118 - 2016 - IME - USP</title>
+  <!-- eventualmente se o seu editor trabalhar com ISO-8859-1, trocar o 'charset=utf-8' por 'charset=iso-8859-1' -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" href="estilo.css" media="screen">
+</head>
+
+<body>
+
+<!-- cabecalho da tabela --- --->
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr bgcolor="#d4e4ea"><td>
+  <a href="index.html" title="ir para inicio">Sobre o uso da Estatística Descritiva no iVprog</a> - Laís Alves da Costa, Marcos Molina Filho, Ruan Laranjeira Marques e Vinícius Ken Miamura
+ </td></tr>
+</table>
+<!-- cabecalho da tabela --- --->
+
+<!-- --- canto superior esquerdo para construir o bloco com contos esquerdos arredondados --- --->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+ <tr><td><img src="img/cab-esq.gif"></td>
+     <td width="100%" background="img/cab-sup.gif">&nbsp;</td></tr>
+</table>
+
+<!-- --- : centro da tabela : corpo do texto: inicio : --- -------------- -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr><td background="img/esq.gif" width="48px">&nbsp;</td>
+<td>
+
+<div class="titulosecao">
+<h1>Trabalho de MAC118 - 2016</h1>
+</div>
+<br/>
+
+<strong>Referências utilizadas neste trabalho</strong> <!-- _var = msg_enter -->
+<br/>
+
+<ol>
+  <li>[iMática] iMática: matemática interativa na Internet<br/>URL: <a href="http://www.matematica.br">http://www.matematica.br</a>
+  </li><br>
+  <li>[Moodle] Moodle<br/>URL: <a href="http://www.moodle.org">http://www.moodle.org</a>
+  </li><br>
+  <li>[Boyer1974] Boyer, Carl B., História da Matemática, Edgard Blücher, São Paulo, 1974.
+  </li><br>
+  <li>[Fuzzy] Qual a importância do pensamento computacional na aprendizagem?<br/>URL: <a href="https://fuzzymakers.com/pensamento-computacional/#:~:text=A%20lógica%20computacional%20contribui%20para,uma%20das%20principais%20competências%20adquiridas">https://fuzzymakers.com/pensamento-computacional/#:~:text=A%20lógica%20computacional%20contribui%20para,uma%20das%20principais%20competências%20adquiridas.</a>
+  </li><br>
+  <li>[CER] Como aplicar o Pensamento Computacional na Educação<br/>URL: <a href="https://cer.sebrae.com.br/blog/pensamento-computacional-na-educacao/"> https://cer.sebrae.com.br/blog/pensamento-computacional-na-educacao/</a>
+  </li><br>
+  <li>[Wikipedia] Estatística descritiva<br/>URL: <a href="https://pt.wikipedia.org/wiki/Estatística_descritiva">https://pt.wikipedia.org/wiki/Estatística_descritiva</a>
+  </li><br>
+  <li>[Voitto] Estatística Descritiva Básica: o que é e para que serve<br/>URL: <a href="https://www.voitto.com.br/blog/artigo/estatistica-descritiva">https://www.voitto.com.br/blog/artigo/estatistica-descritiva</a>
+  </li><br>
+  <li>[Wikipedia] Tendência central<br/>URL: <a href="https://pt.wikipedia.org/wiki/Tendência_central">https://pt.wikipedia.org/wiki/Tendência_central</a>
+  </li><br>
+  <li>[Wikipedia] Moda (estatística)<br/>URL: <a href="https://pt.wikipedia.org/wiki/Moda_(estatística)">https://pt.wikipedia.org/wiki/Moda_(estatística)</a>
+  </li><br>
+  <li>[Wikipedia] Mediana (estatística)<br/>URL: <a href="https://pt.wikipedia.org/wiki/Mediana_(estatística)">https://pt.wikipedia.org/wiki/Mediana_(estatística)</a>
+  </li><br>
+  <li>[Wikipedia] Dispersão estatística<br/>URL: <a href="https://pt.wikipedia.org/wiki/Dispersão_estatística">https://pt.wikipedia.org/wiki/Dispersão_estatística</a>
+  </li><br>
+  <li>[Wikipedia] Amplitude<br/>URL: <a href="https://pt.wikipedia.org/wiki/Amplitude">https://pt.wikipedia.org/wiki/Amplitude</a>
+  </li><br>
+  <li>[TodaMatéria] Desvio Padrão<br/>URL: <a href="https://www.todamateria.com.br/desvio-padrao/">https://www.todamateria.com.br/desvio-padrao/</a>
+  </li><br>
+  <li>[Wikipedia] Coeficiente de variação<br/>URL: <a href="https://pt.wikipedia.org/wiki/Coeficiente_de_variação">https://pt.wikipedia.org/wiki/Coeficiente_de_variação</a>
+  </li><br>
+  <li>[Geogebra] Frequência e histograma<br/>URL: <a href="https://www.geogebra.org/m/eca5jsmx">https://www.geogebra.org/m/eca5jsmx</a>
+  </li><br>
+  <li>[Alura] Histograma: O que é, Exemplos, Gráficos e Tipos<br/>URL: <a href="https://www.alura.com.br/artigos/o-que-e-um-histograma--amp?gclid=EAIaIQobChMIqcy9hsie9QIVjIiRCh3HiA6PEAAYASAAEgKlAPD_BwE">https://www.alura.com.br/artigos/o-que-e-um-histograma--amp?gclid=EAIaIQobChMIqcy9hsie9QIVjIiRCh3HiA6PEAAYASAAEgKlAPD_BwE</a>
+  </li><br>
+  <li>[Wikipedia] Histograma<br/>URL: <a href="https://pt.wikipedia.org/wiki/Histograma">https://pt.wikipedia.org/wiki/Histograma</a>
+  </li><br>  
+  <li>[IBC] APRENDA COMO FAZER UM HISTOGRAMA PASSO A PASSO<br/>URL: <a href="https://www.ibccoaching.com.br/portal/aprenda-como-fazer-um-histograma-passo-passo/">https://www.ibccoaching.com.br/portal/aprenda-como-fazer-um-histograma-passo-passo/</a>
+  </li><br>
+  <li>[IVProg] Tutorial IVProg<br/>URL: <a href="http://www.usp.br/line/ivprog/manual_pt/index.html"> http://www.usp.br/line/ivprog/manual_pt/index.html</a>
+  </li><br>
+  <li>[Moodle] Moodle<br/>URL: <a href="http://www.moodle.org"> http://www.moodle.org</a>
+  </li><br>
+<li>[Moodle] Moodle<br/>URL: <a href="http://www.moodle.org"> http://www.moodle.org</a>
+  </li><br>
+    
+</ol>
+
+</td></tr>
+</table>
+<!-- --- : centro da tabela : corpo do texto: final : --- -------------- -->
+
+<!-- --- : final da tabela com canto esquerdo arredondado : --- -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+ <tr><td><img src="img/cab-inf-esq.gif"></td>
+   <td width="100%" background="img/canto-inf.gif"></td></tr>
+</table>
+
+<!-- rodape da tabela --- --->
+<div class="cabecalho_rodape">
+ Trabalho de MAC118 - 2016 - Prof. Leônidas O. Brandão
+</div>
+
+
+</body>
+</html>

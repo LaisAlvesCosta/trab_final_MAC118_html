@@ -1,0 +1,143 @@
+<!--
+
+ MM   MM    AAA     CCCC   11   11   888
+ MMM MMM   AA AA   CC     111  111  88 88
+ MM M MM  AAAAAAA  CC      11   11   888
+ MM M MM  AAA  AA  CC      11   11  88 88
+ MM   MM AA     AA  CCCC   11   11   888
+-->
+<html>
+<head>
+  <base href=".">
+  <title>Trabalho de MAC118 - 2021 - IME - USP</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">    
+  <link rel="stylesheet" href="estilo.css" media="screen">
+</head>
+
+<body>
+
+
+<!-- cabecalho da tabela --- --->
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr bgcolor="#d4e4ea"><td>
+ <div class="cabecalho_rodape">
+  <a href="index.html" title="ir para inicio">Sobre o uso da Estatística Descritiva no iVprog</a> - Laís Alves da Costa, Marcos Molina Filho, Ruan Laranjeira Marques e Vinícius Ken Miamura
+ </div>
+</td></tr></table>
+<!-- cabecalho da tabela --- --->
+
+<!-- --- canto superior esquerdo para construir o bloco com contos esquerdos arredondados --- --->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+ <tr><td><img src="img/cab-esq.gif"></td>
+     <td width="100%" background="img/cab-sup.gif">&nbsp;</td></tr>
+</table>
+
+<!-- --- : centro da tabela : corpo do texto: inicio : --- -------------- -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr><td background="img/esq.gif" width="48px">&nbsp;</td>
+<td>
+
+<div class="titulo">
+<h2>Trabalho de MAC118 - 2021<img src="imagens/GifPC.gif"  align="right" title="GifPC" width="100" height="90"/></h2><h3>Aula 06 - Medidas de dispersão: Amplitude</h3>
+</div>
+
+<br/><!-- quebra de linha -->
+
+<div class="titulosecao">
+ Apresentação
+</div>
+
+<br/>
+
+Em estatística, uma <b>Medida de Dispersão</b> é utilizada para indicar o grau de variação dos elementos de um conjunto numérico em relação à sua média. Trataremos de 3 medidas de dispersão: <a href="Aula06.html" >Amplitude</a>,  <a href="Aula07.html" >Desvio Padrão</a> e  <a href="Aula08.html" >Coeficiente de Variância</a>. <br><br>
+
+As medidas de dispersão dentro da estatística descritiva nos permitem avaliar se os dados estão distribuídos de acordo com o padrão desejado. O grande objetivo para isso é encontrar um valor que resuma a variabilidade de um conjunto de dados.
+<br><br>
+Uma medida de dispersão estatística é um não-negativo número real que é zero se todos os dados são os mesmos e aumentam conforme os dados vão ficando mais diversos.
+A maior parte de medidas de dispersão estatística tem as mesmas unidades que a quantidade sendo medida. Em outras palavras, se as medidas das amostras são feitas em metros ou segundos, a medida de dispersão também será.<br><br>
+<b>Amplitude<br></b><br>
+Dentro da estatística descritiva, a amplitude é utilizada para nos mostrar o quão espaçado ou não estão os dados da amostra que está sendo trabalhada. Esta é a maneira mais simples e rápida para analisar uma dispersão nos dados. Para obter a amplitude de um conjunto de amostras, é bem simples, basta fazer a diferença entre o maior e o menor valor. Se a amplitude for um valor elevado, significa que os seus dados estão distribuídos com um intervalo grande, e em caso contrário, isso nos mostra que os intervalos são pequenos.
+
+<br><br>
+<div class="titulosecao">
+Atividade
+</div>
+<br>
+
+Agora que você sabe o que é Amplitude, realize a seguinte atividade: <br><br>
+
+Um clube de vôlei pretende realizar uma pesquisa de idades dos times inscritos na competição juvenil. Sabendo que cada time compõe 6 jogadores em quadra, faça um programa em que o usuário digitará as idades dos jogadores de cada time e em seguida, encontre e imprima a Amplitude das idades do time.
+<br><br>
+
+Dica: Encontre a maior e a menor idade dos 6 jogadores.
+<br><br>
+
+Entrada esperada: 6 números inteiros (tipo int).<br>
+Saída esperada: Amplitude das idades do time. 
+<br><br>
+
+<div class="embed-responsive embed-responsive-4by3"><!-- embed-responsive-16by9 -->
+ <iframe class="embed-responsive-item" width="900" height="800" name="ivprog"
+   src="ivprogh/index.html?iLM_PARAM_AssignmentURL=true&iLM_PARAM_Assignment=../ivp/exemplo_testa_tripla_pitagorica.ivph"
+   allowfullscreen>
+ </iframe>
+ <br><br>
+ <font size=-2> <b>Validação:</b>
+ 
+ 
+ <br> <table border=1 cellPadding=2 cellSpacing=0>
+                 
+	<tr><TD ROWSPAN=8 bgcolor="#6a5acd" align="center"><font face="verdana, sans-serif" color="#ffffff" size=1>
+	                <b>Idades Time 1</b></font></TD>
+       <TR><TD align="center">23</TD></TR>
+        <TR><TD align="center">22</TD></TR>
+         <TR><TD align="center">17</TD></TR>
+          <TR><TD align="center">20</TD></TR>
+           <TR><TD align="center">16</TD></TR>
+           <TR><TD align="center">22</TD></TR>
+		   <TR><TD bgcolor="#db3012" align="center"><font face="verdana, sans-serif" color="#ffffff" size=1>
+	            <b>Amplitude: 7</b></font> </TD></TR>
+			</tr>
+				
+	<tr><TD ROWSPAN=8 bgcolor="#6a5acd" align="center"><font face="verdana, sans-serif" color="#ffffff" size=1>
+	                <b>Idades Time 2</b></font></TD>
+       <TR><TD align="center">15</TD></TR>
+        <TR><TD align="center">16</TD></TR>
+         <TR><TD align="center">16</TD></TR>
+          <TR><TD align="center">19</TD></TR>
+           <TR><TD align="center">24</TD></TR>
+           <TR><TD align="center">20</TD></TR>
+		   <TR><TD bgcolor="#db3012" align="center"><font face="verdana, sans-serif" color="#ffffff" size=1>
+	            <b>Amplitude: 9 </b></font> </TD></TR>
+			</tr>
+			
+		
+			
+</table>
+
+
+
+<br>
+
+ <a href="Aula05.html"><img src="imagens/voltar.png" title="Voltar" width="3%" align="left"/></a>
+<a href="Aula07.html"><img src="imagens/avançar.png" title="Avançar" width="3%" align="right"/></a>
+
+
+
+</td></tr>
+</table>
+<!-- --- : centro da tabela : corpo do texto: final : --- -------------- -->
+
+<!-- --- : final da tabela com canto esquerdo arredondado : --- -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+ <tr><td><img src="img/cab-inf-esq.gif"></td>
+   <td width="100%" background="img/canto-inf.gif"></td></tr>
+</table>
+
+<!-- rodape da tabela --- --->
+<div class="cabecalho_rodape">
+ Trabalho de MAC118 - 2021 - Prof. Leônidas O. Brandão
+</div>
+
+
+</body>
+</html>

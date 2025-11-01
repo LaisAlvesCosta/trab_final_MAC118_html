@@ -1,0 +1,188 @@
+<!--
+
+ MM   MM    AAA     CCCC   11   11   888
+ MMM MMM   AA AA   CC     111  111  88 88
+ MM M MM  AAAAAAA  CC      11   11   888
+ MM M MM  AAA  AA  CC      11   11  88 88
+ MM   MM AA     AA  CCCC   11   11   888
+-->
+<html>
+<head>
+  <base href=".">
+  <title>Trabalho de MAC118 - 2021 - IME - USP</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">    
+  <link rel="stylesheet" href="estilo.css" media="screen">
+</head>
+
+<body>
+
+<!-- cabecalho da tabela --- --->
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr bgcolor="#d4e4ea"><td>
+ <div class="cabecalho_rodape">
+  Sobre o uso da Estatística Descritiva no iVprog - Laís Alves da Costa, Marcos Molina Filho, Ruan Laranjeira Marques e Vinícius Ken Miamura
+ </div>
+</td></tr></table>
+<!-- cabecalho da tabela --- --->
+
+<!-- --- canto superior esquerdo para construir o bloco com contos esquerdos arredondados --- --->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+ <tr><td><img src="img/cab-esq.gif"></td>
+     <td width="100%" background="img/cab-sup.gif">&nbsp;</td></tr>
+</table>
+
+<!-- --- : centro da tabela : corpo do texto: inicio : --- -------------- -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr><td background="img/esq.gif" width="48px">&nbsp;</td>
+<td>
+
+<div class="titulo">
+<h1>Trabalho de MAC118 - 2021 <img src="imagens/GifPC.gif"  align="right" title="GifPC" width="120" height="110"/>
+<table>
+ 
+    <tr>
+        <td><font size=-1><b>Laís Alves da Costa</b></font></td>
+        <td><font size=-1>12561447</font></td>
+    </tr>
+	<tr>
+        <td><font size=-1><b>Marcos Molina Filho</b></font></td>
+        <td><font size=-1>11223674</font></td>
+    </tr>
+    <tr>
+        <td><font size=-1><b>Ruan Laranjeira Marques</b></font></td>
+        <td><font size=-1>7992362</font></td>
+    </tr>
+	<tr>
+        <td><font size=-1><b>Vinícius Ken Miamura</b></font></td>
+        <td><font size=-1>9794041</font></td>
+    </tr>
+</table>
+
+</h1>
+
+
+
+</div>
+
+
+<br/>
+
+<div class="titulosecao">
+Sobre o uso do iVprog em atividades didáticas de Matemática
+</div>
+
+<br/> <!-- pular uma linha - experimente retirar este "br" e veja o resultado -->
+
+<tabela2c><!-- inicia marca para tabela -->
+<ladoalado>
+
+</ladoalado>
+<ladoalado>
+ <p>
+ Estas páginas foram preparadas inicialmente como trabalho final da disciplina 
+ <!-- ATENCAO este e' um exemplo que e' obrigatorio usar "endereco absoluto", pois deseja-se desviar para uma pagina externa -->
+ <a href="https://uspdigital.usp.br/jupiterweb/obterDisciplina?sgldis=mac0118" title="ver a descricao oficial nos sistema da USP" target="_blank"><i>MAC118</i></a>
+ em 2021. O <b>iVProg</b> é um sistema destinado ao ensino e à aprendizagem de algoritmos/programação, projetado para ser empregado a partir do final do Ensino Fundamental II.  
+ Ele foi implementado em <a href="http://pt.wikipedia.org/wiki/JavaScript" title="examinar o que  e' JavaScript" target="_blank"><i>JavaScript</i></a>
+ e pode ser integrado ao
+ <a href="https://moodle.org/" title="examinar o Moodle.org" target="_blank">Moodle</a> a partir do pacote
+ <a href="https://moodle.org/plugins/mod_iassign" title="examinar o iTarefa no Moodle.org" target="_blank">iTarefa</a>.
+</p>
+Aqui você encontrará um rápida apresentação do sistema livre
+ <!-- ATENCAO este e' um exemplo que e' obrigatorio usar "endereco absoluto", pois deseja-se desviar para uma pagina externa -->
+ <a href="http://www.usp.br/line/ivprog" title="ir para pagina do iVProg"><i>iVProg</i></a>.
+ <p>
+ Elaboramos uma <b>Unidade Curicular</b> organizada por Aulas e composta por páginas interativas que contém o uso do <a href="http://www.usp.br/line/ivprog" title="ir para pagina do iVProg"><i>iVProg</i></a> juntamente com o conteúdo de <b>Estatística Descritiva</b> de Ensino Médio que segue o termo da atual recomendação da SEESP da tabela abaixo:
+ <p>
+ <table border=1 cellPadding=2 cellSpacing=0>
+                  <tr>
+                    <td bgcolor="#3e8ce6" colspan=2>
+                    <font face="verdana, sans-serif" color="#ffffff" size=2>
+	            <b>Organizador Curricular da área de Matemática e suas Tecnologias </b></font></td>
+                  </tr>
+                  <tr>
+                    <td><font face="verdana, sans-serif" color="#000044" size=2>
+                    <b>Habilidade:</b></font></td>
+                    <td><font face="verdana, sans-serif" color="#000044" size=2>
+                    <b>(EM13MAT202)</b> Planejar e executar pesquisa amostral sobre questões relevantes, usando dados coletados diretamente ou em diferentes fontes, e comunicar os resultados por meio de relatório contendo gráficos e interpretação das medidas de tendência central e das medidas de dispersão (amplitude e desvio padrão),utilizando ou não recursos tecnológicos.</font></td>
+                  </tr>
+                  <tr>
+                    <td><font face="verdana, sans-serif" color="#000044" size=2>
+                    <b>Objetos de Conhecimento:</b></font></td>
+                    <td><font face="verdana, sans-serif" color="#000044" size=2>
+                    Conceitos simples de Estatística Descritiva;<br>
+					Medidas de tendência central (média, moda e mediana);<br> 
+					Medidas de dispersão (amplitude, desvio padrão e coeficiente de variância);<br>
+					Gráficos estatísticos (histogramas e polígonos de frequência);<br>
+					Distribuição normal.</font></td>
+                  </tr>
+                </table> </p>
+ </p>
+ 
+</ladoalado>
+</tabela2c><!-- finaliza tabela -->
+
+<br/>
+
+<titulosubsecao>ROTEIRO</titulosubsecao>
+<br><br>
+
+<b><a href="Aula00.html" title="Aula00">Aula 00</a> A importância do Pensamento Computacional<br>
+<a href="Aula01.html" title="Aula01">Aula 01</a> Introdução à programação no iVprog<br>
+<a href="Aula02.html" title="Aula02">Aula 02</a> Estatística Descritiva na Programação<br>
+<a href="Aula03.html" title="Aula03">Aula 03</a> Medidas de Tendência Central: Média<br>
+<a href="Aula04.html" title="Aula04">Aula 04</a> Medidas de Tendência Central: Mediana<br>
+<a href="Aula05.html" title="Aula05">Aula 05</a> Medidas de Tendência Central: Moda<br>
+<a href="Aula06.html" title="Aula06">Aula 06</a> Medidas de Dispersão: Amplitude<br>
+<a href="Aula07.html" title="Aula07">Aula 07</a> Medidas de Dispersão: Desvio Padrão<br>
+<a href="Aula08.html" title="Aula08">Aula 08</a> Medidas de Dispersão: Coeficiente de Variância<br>
+<a href="Aula09.html" title="Aula09">Aula 09</a> Histograma<br>
+<a href="Aula10.html" title="Aula10">Aula 10</a> Desafio Final </b>
+
+ <!-- <ol>
+ <li><a href="apresentacao.html" title="apresentacao">Apresentação</a>
+ </li>
+ <li>Utilizando o recurso ...
+  <ol>
+   <li><a href="secao1.html" title="secao1">Recurso 1...</a>
+   </li>
+   <li>Recurso 2...
+   </li>
+  </ol>
+ </li>
+ <li>Exemplo de atividade 1
+  <ol>
+   <li>Contexto 1...
+   </li>
+   <li>Como apresentar...
+   </li>
+  </ol>
+ </li>
+ <li><a href="referencias.html" title="examinar todas as referencias utilizadas neste trabalho">Referências</a>
+ </li>
+</ol> --->
+<br>
+
+<p class="nota2">
+<a href="referencias.html" title="Examinar todas as referências utilizadas neste trabalho">Referências</a><br><br>
+Trabalho final da disciplina "Noções de Ensino de Matemática usando o Computador"<br/>
+Prof. responsável Leônidas de Oliveira Brandão
+</p>
+
+</td></tr>
+</table>
+<!-- --- : centro da tabela : corpo do texto: final : --- -------------- -->
+
+<!-- --- : final da tabela com canto esquerdo arredondado : --- -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+ <tr><td><img src="img/cab-inf-esq.gif"></td>
+   <td width="100%" background="img/canto-inf.gif"></td></tr>
+</table>
+
+<div class="cabecalho_rodape">
+ Trabalho de MAC118 - 2021 - Prof. Leônidas O. Brandão
+</div>
+<!-- rodape da tabela --- --->
+
+
+</body>
+</html>

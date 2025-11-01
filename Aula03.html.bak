@@ -1,0 +1,170 @@
+<!--
+
+ MM   MM    AAA     CCCC   11   11   888
+ MMM MMM   AA AA   CC     111  111  88 88
+ MM M MM  AAAAAAA  CC      11   11   888
+ MM M MM  AAA  AA  CC      11   11  88 88
+ MM   MM AA     AA  CCCC   11   11   888
+-->
+<html>
+<head>
+  <base href=".">
+  <title>Trabalho de MAC118 - 2021 - IME - USP</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">    
+  <link rel="stylesheet" href="estilo.css" media="screen">
+</head>
+
+<body>
+
+
+<!-- cabecalho da tabela --- --->
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr bgcolor="#d4e4ea"><td>
+ <div class="cabecalho_rodape">
+  <a href="index.html" title="ir para inicio">Sobre o uso da Estatística Descritiva no iVprog</a> - Laís Alves da Costa, Ruan Laranjeira Marques e Vinícius Ken Miamura
+ </div>
+</td></tr></table>
+<!-- cabecalho da tabela --- --->
+
+<!-- --- canto superior esquerdo para construir o bloco com contos esquerdos arredondados --- --->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+ <tr><td><img src="img/cab-esq.gif"></td>
+     <td width="100%" background="img/cab-sup.gif">&nbsp;</td></tr>
+</table>
+
+<!-- --- : centro da tabela : corpo do texto: inicio : --- -------------- -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr><td background="img/esq.gif" width="48px">&nbsp;</td>
+<td>
+
+<div class="titulo">
+<h2>Trabalho de MAC118 - 2021<img src="imagens/GifPC.gif"  align="right" title="GifPC" width="100" height="90"/></h2><h3>Aula 03 - Medidas de tendência central: Média </h3>
+</div>
+
+<br/><!-- quebra de linha -->
+
+<div class="titulosecao">
+ Apresentação
+</div>
+
+<br/>
+
+Em estatística, uma <b>Medida de Tendência Central</b> é um valor central ou valor típico para uma distribuição de probabilidade. As medidas de tendência central mais comuns são a <a href="Aula03.html" >Média</a>, a <a href="Aula04.html" >Mediana</a> e <a href="Aula05.html" >Moda</a>.<br><br>
+Tendências centrais podem ser calculadas tanto para um número finito de valores quanto para uma distribuição teórica, a exemplo da distribuição normal. Ocasionalmente autores usam tendência central (ou centralidade), significando "a tendência de dados quantitativos de se agruparem ao redor de um valor central.". Autores podem julgar se dados têm tendência central forte ou fraca se baseando na dispersão estatística, medida pelo desvio padrão ou algo similar.
+<br><br>
+Esses tipos de medidas são utilizadas dentro da estatística descritiva para indicar a localização dos dados.<br><br>
+<b>Média Aritmética<br></b><br>
+A média aritmética nada mais é do que a soma de todos os valores da base de dados dividida pelo número de elementos no total. <br>A equação matemática que a representa é:
+
+<center>
+<img src="imagens/media.png" title="media" /></center><br>
+
+<div class="titulosecao">
+Exemplo iVprog
+</div>
+<br>
+Abaixo apresentamos um exemplo da programação no iVprog para calcular a média aritmética de 2 valores "a" e "b" que serão digitados pelo usuário:
+<br><br>
+
+
+<img src="imagens/iVprogMedia.png" title="media" />
+<br>
+<br><br>
+<div class="titulosecao">
+Atividade
+</div>
+<br>
+Sabemos que há também a <b>Média Ponderada</b>, na qual cada dado é atribuído e multiplicado por um peso. A soma desses elementos é então dividida pelo somatório de todos os pesos, da seguinte forma:
+<center>
+<img src="imagens/mediaPonderada.png" title="media" /></center><br>
+
+Agora que você sabe o que é Média Ponderada, realize a seguinte atividade: <br><br>
+
+A média final da disciplina de Gravitação tem peso 1 para Atividade de Sala (AS) , 2 para Trabalho para Casa (TC) e 3 para Trabalho Final (TF).<br>
+Crie um programa que leia as notas do usuário (AS, TC e TF), compute sua média ponderada e imprima essa média.
+<br><br>
+Atenção: nesta atividade use uma variável auxiliar (poderia ter nome med) para receber o resultado da média (isso seria necessário se tiver que usar essa média para outras operações, como computar o desvio padrão).
+<br><br>
+Entrada esperada: 3 números inteiros AS, TC e TF (tipo int).<br>
+Saída esperada: um número inteiro (tipo int), correspondente à Média Ponderada inteira entre os valores digitados pelo usuário. 
+<br><br>
+
+<div class="embed-responsive embed-responsive-4by3"><!-- embed-responsive-16by9 -->
+ <iframe class="embed-responsive-item" width="900" height="800" name="ivprog"
+   src="ivprogh/index.html?iLM_PARAM_AssignmentURL=true&iLM_PARAM_Assignment=../ivp/exemplo_testa_tripla_pitagorica.ivph"
+   allowfullscreen>
+ </iframe>
+ <br><br>
+ <font size=-2> <b>Validação:</b>
+ 
+  <table border=1 cellPadding=2 cellSpacing=0>
+                  <tr>
+                    <td bgcolor="#6a5acd" align="center">
+                    <font face="verdana, sans-serif" color="#ffffff" size=1>
+	                <b>AS</b></font></td>
+                    <td bgcolor="#6a5acd" align="center">
+                    <font face="verdana, sans-serif" color="#ffffff" size=1>
+	            <b>TC</b></font></td>
+				<td bgcolor="#6a5acd" align="center">
+                    <font face="verdana, sans-serif" color="#ffffff" size=1>
+	            <b>TF</b></font></td>
+				<td bgcolor="#db3012" align="center">
+                    <font face="verdana, sans-serif" color="#ffffff" size=1>
+	            <b>Média Ponderada</b></font></td>
+                  </tr>
+                  <tr>
+                    <td align="center">
+					<font face="verdana, sans-serif" color="#000044" size=1>
+                    7</font></td>
+                    <td align="center">
+					<font face="verdana, sans-serif" color="#000044" size=1>
+                    8</font></td>
+					<td align="center">
+					<font face="verdana, sans-serif" color="#000044" size=1>
+                    9</font></td>
+					<td align="center">
+					<font face="verdana, sans-serif" color="#000044" size=1>
+                    8</font></td>
+                  </tr>
+				  <tr>
+                    <td align="center">
+					<font face="verdana, sans-serif" color="#000044" size=1>
+                    2</font></td>
+                    <td align="center">
+					<font face="verdana, sans-serif" color="#000044" size=1>
+                    5</font></td>
+					<td align="center">
+					<font face="verdana, sans-serif" color="#000044" size=1>
+                    10</font></td>
+					<td align="center">
+					<font face="verdana, sans-serif" color="#000044" size=1>
+                    7</font></td>
+                  </tr>
+                  
+ 
+ </font></table>
+
+<br>
+
+<a href="Aula02.html"><img src="imagens/voltar.png" title="Voltar" width="3%" align="left"/></a>
+<a href="Aula04.html"><img src="imagens/avançar.png" title="Avançar" width="3%" align="right"/></a>
+
+
+
+</td></tr>
+
+<!-- --- : centro da tabela : corpo do texto: final : --- -------------- -->
+
+<!-- --- : final da tabela com canto esquerdo arredondado : --- -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+ <tr><td><img src="img/cab-inf-esq.gif"></td>
+   <td width="100%" background="img/canto-inf.gif"></td></tr>
+</table>
+
+<!-- rodape da tabela --- --->
+<div class="cabecalho_rodape">
+ Trabalho de MAC118 - 2021 - Prof. Leônidas O. Brandão
+</div>
+
+
+</body>
+</html>

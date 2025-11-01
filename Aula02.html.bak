@@ -1,0 +1,83 @@
+<!--
+
+ MM   MM    AAA     CCCC   11   11   888
+ MMM MMM   AA AA   CC     111  111  88 88
+ MM M MM  AAAAAAA  CC      11   11   888
+ MM M MM  AAA  AA  CC      11   11  88 88
+ MM   MM AA     AA  CCCC   11   11   888
+-->
+<html>
+<head>
+  <base href=".">
+  <title>Trabalho de MAC118 - 2021 - IME - USP</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">    
+  <link rel="stylesheet" href="estilo.css" media="screen">
+</head>
+
+<body>
+
+
+<!-- cabecalho da tabela --- --->
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr bgcolor="#d4e4ea"><td>
+ <div class="cabecalho_rodape">
+  <a href="index.html" title="ir para inicio">Sobre o uso da Estatística Descritiva no iVprog</a> - Laís Alves da Costa, Ruan Laranjeira Marques e Vinícius Ken Miamura
+ </div>
+</td></tr></table>
+<!-- cabecalho da tabela --- --->
+
+<!-- --- canto superior esquerdo para construir o bloco com contos esquerdos arredondados --- --->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+ <tr><td><img src="img/cab-esq.gif"></td>
+     <td width="100%" background="img/cab-sup.gif">&nbsp;</td></tr>
+</table>
+
+<!-- --- : centro da tabela : corpo do texto: inicio : --- -------------- -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr><td background="img/esq.gif" width="48px">&nbsp;</td>
+<td>
+
+<div class="titulo">
+<h2>Trabalho de MAC118 - 2021<img src="imagens/GifPC.gif"  align="right" title="GifPC" width="100" height="90"/></h2><h3>Aula 02 - Estatística Descritiva na Programação</h3>
+</div>
+
+<br/><!-- quebra de linha -->
+
+<div class="titulosecao">
+ Apresentação
+</div>
+
+<br/>
+
+
+A Estatística Descritiva é um ramo da estatística que aplica várias técnicas para descrever e sumarizar um conjunto de dados. Tem como objetivo: organizar, sumarizar dados ao invés de usar os dados em aprendizado.<br><br>
+Ela fornece resumos simples sobre a amostra e sobre as observações que foram feitas. Tal resumo pode ser quantitativo ou visual, nessa Unidade Curricular vamos explorar o resumo quantitativo.<br><br>
+Essa área da estatística é utilizada com frequência em situações em que nos deparamos com uma quantidade grande de informações e precisamos torná-las mais condensadas para que assim se consiga trabalhar com elas. A disponibilidade de uma grande quantidade de dados e de métodos computacionais muito eficientes revigorou esta área da estatística.<br> Você vai analisar na prática como a interação entre humano e computador pode viabilizar estudos precisos, durante as Aulas isso será feito através da média, mediana, moda, desvio padrão e demais recursos que a estatística descritiva traz para nos auxiliar nesse processo.<br><br>
+A meta principal do iVprog é motivar os estudantes a aprenderem diversos aspectos dos algoritmos de matemática e ao mesmo tempo não se preocupar com problemas de configuração de ambiente, erros de sintaxe e compilação. Entretanto, o uso da programação no iVprog vai ser de extrema importância para resumir e compreender os dados através do estudo de medidas utilizadas dentro da Estatística Descritiva. Através da linguagem de programação, o programa irá executar uma sequência de ações que deve ser estruturada de forma lógica para resolver problemas do mundo real, como o de análise de dados na Estatística.
+
+<br><br>
+
+
+<a href="Aula01.html"><img src="imagens/voltar.png" title="Voltar" width="3%" align="left"/></a>
+<a href="Aula03.html"><img src="imagens/avançar.png" title="Avançar" width="3%" align="right"/></a>
+
+
+
+
+</td></tr>
+</table>
+<!-- --- : centro da tabela : corpo do texto: final : --- -------------- -->
+
+<!-- --- : final da tabela com canto esquerdo arredondado : --- -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+ <tr><td><img src="img/cab-inf-esq.gif"></td>
+   <td width="100%" background="img/canto-inf.gif"></td></tr>
+</table>
+
+<!-- rodape da tabela --- --->
+<div class="cabecalho_rodape">
+ Trabalho de MAC118 - 2021 - Prof. Leônidas O. Brandão
+</div>
+
+
+</body>
+</html>
